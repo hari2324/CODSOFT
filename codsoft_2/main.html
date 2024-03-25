@@ -13,10 +13,10 @@
                 const button = document.querySelector('.res_btn');
 
                 button.addEventListener('click', () => {
-                const filePath = button.getAttribute('data-file-path');
+                const filePath = button.getAttribute('Resume.txt');
                 const link = document.createElement('a');
                 link.href = filePath;
-                link.download = 'sample.txt';
+                link.download = 'Resume.txt';
                 link.click();
                 });
             }
